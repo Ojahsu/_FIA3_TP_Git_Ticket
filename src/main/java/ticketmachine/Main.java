@@ -2,7 +2,7 @@ package ticketmachine;
 
 public class Main {
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws ExceptioninsertionMontantNegatif {
 		TicketMachine machine = new TicketMachine(50);
 		System.out.println("L'utilisateur insère 60 centimes");
 		machine.insertMoney(60);
