@@ -80,7 +80,7 @@ class TicketMachineTest {
 		machine.insertMoney(PRICE+10);
 		machine.printTicket();
 		machine.refund();
-		assertEquals(0, machine.getBalance(), "Le rendu n'est pas au bon montant");
+		assertEquals(0, machine.getBalance(), "La valeur de la balance n'est pas de 0");
 	}
 
 	@Test
